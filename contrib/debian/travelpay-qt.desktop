@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Travel Pay
+Comment=Travel Pay P2P Cryptocurrency
+Comment[fr]=Travel Pay, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Travel Pay, eşten eşe kriptografik sanal para birimi
+Exec=travelpay-qt %u
+Terminal=false
+Type=Application
+Icon=travelpay128
+MimeType=x-scheme-handler/travelpay;
+Categories=Office;Finance;

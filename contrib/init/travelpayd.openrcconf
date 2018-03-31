@@ -1,0 +1,26 @@
+# /etc/conf.d/travelpayd: config file for /etc/init.d/travelpayd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/travelpay/travelpay.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/travelpayd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/travelpayd.pid"
+
+# Where to write travelpayd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/travelpayd"
+
+# User and group to own travelpayd process
+#BITCOIND_USER="travelpay"
+#BITCOIND_GROUP="travelpay"
+
+# Path to travelpayd executable
+#BITCOIND_BIN="/usr/bin/travelpayd"
+
+# Nice value to run travelpayd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
